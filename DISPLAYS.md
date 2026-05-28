@@ -52,6 +52,7 @@ Width and height are pixels.
 | 2.9M   | 296   |  128   | eInk  | [UC8151D][7d]  | [Adafruit 4777][15m]         | FeatherWing ePaper display.                  |
 | 2.9M   | 296   |  128   | eInk  | [SSD1680][15d] | [WeAct Studio ePaper][26m]   | WeAct Studio ePaper display.                 |
 | 4.2M   | 400   |  300   | eInk  | [WS][10d]      | [Waveshare pico 4.2][19m]    | Pico plugs in, others via cable [see][1z].   |
+| 4.2M   | 400   |  300   | refl. | [ST7305][19d]  | [W'sh ESP32-S3-RLCD-4.2][38m]| Reflective mono display, faster than eInk    |
 | 2.7M   | 274   |  176   | eInk  | [HAT][8d]      | [Waveshare HAT][14m]         | HAT designed for Raspberry Pi, repurposed.   |
 | 2.7M   | 400   |  240   | Sharp | [Sharp][9d]    | [Adafruit 4694][16m]         | Micropower monochrome display.               |
 | 1.3M   | 168   |  144   | Sharp | [Sharp][9d]    | [Adafruit 3502][17m]         | Ditto.                                       |
@@ -151,6 +152,7 @@ simple. See [this doc](./DRIVERS.md#7-writing-device-drivers) for details.
 [16d]: https://github.com/peterhinch/micropython-nano-gui/blob/master/drivers/st7567s/st7567s.py
 [17d]: https://github.com/peterhinch/micropython-nano-gui/blob/master/drivers/gc9a01/gc9a01.py
 [18d]: https://github.com/peterhinch/micropython-nano-gui/blob/master/DRIVERS.md#55-waveshare-pico-2.13-eink-display
+[19d]: https://github.com/peterhinch/micropython-nano-gui/blob/master/drivers/st7305/st7305.py
 
 [1m]: https://www.adafruit.com/product/684
 [2m]: https://www.adafruit.com/product/1673
@@ -189,6 +191,7 @@ simple. See [this doc](./DRIVERS.md#7-writing-device-drivers) for details.
 [35m]: https://www.waveshare.com/pico-epaper-2.13.htm
 [36m]: https://www.waveshare.com/Pico-ePaper-2.9.htm
 [37m]: https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-2.8
+[38m]: https://docs.waveshare.com/ESP32-S3-RLCD-4.2
 
 [1t]: https://github.com/peterhinch/micropython-touch/blob/master/TOUCHPAD.md#tsc2007
 [2t]: https://github.com/peterhinch/micropython-touch/blob/master/TOUCHPAD.md#xpt2046

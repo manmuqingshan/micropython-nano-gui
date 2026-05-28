@@ -1,0 +1,7 @@
+{
+  "urls": [
+    ["drivers/st7305/st7305.py", "github:peterhinch/micropython-nano-gui/drivers/st7305/st7305.py"],
+    ["drivers/boolpalette.py", "github:peterhinch/micropython-nano-gui/drivers/boolpalette.py"]
+  ],
+  "version": "0.1"
+}
